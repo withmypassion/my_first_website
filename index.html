@@ -6,37 +6,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
 
-    <h1 style="font-size: 50px;"><a href="web.html" target="_blank" title="WEB" style="text-decoration: none;">
-            <center>WEB</h1></a></center>
+    <style>
+        a {
+            color: black;
+            text-decoration: none;
+        }
 
+        h1 {
+            margin: 0%;
+            text-align: center;
+            border-bottom: 2px red solid;
+            padding: 10px;
+        }
+
+        ol {
+            border-right: 2px red solid;
+            width: 100px;
+            margin: 0px;
+            padding: 20px;
+        }
+
+        .saw {
+            color: gray
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        #grid {
+            display: grid;
+            grid-template-columns: 100px 1fr;
+        }
+    #article{
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    </style>
 </head>
 
 <body>
+    <h1>WEB</h1>
 
-    <ol>
-        <li><a href="1.html" style="text-decoration: none;">HTML</li></a>
-        <li><a href="2.html" style="text-decoration: none;">CSS</li></a>
-        <li><a href="3.html" style="text-decoration: none;">Javascript</li></a>
-    </ol>
+    <div id="grid">
+        <ol>
+            <li><a href="1.html" class="saw">HTML</li></a>
+            <li><a href="2.html" class="saw">CSS</li></a>
+            <li><a href="3.html">Javascript</li></a>
+        </ol>
+        <div id="article">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/AL8RSY8rADY?si=HCv0mhjj7f2zahoO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/7T7r_oSp0SE?si=FuLUiAS2r7bpEroy"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen></iframe>">
 
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-        (function () {
-            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-            s1.async = true;
-            s1.src = 'https://embed.tawk.to/653a012ff2439e1631e885b8/1hdl998t7';
-            s1.charset = 'UTF-8';
-            s1.setAttribute('crossorigin', '*');
-            s0.parentNode.insertBefore(s1, s0);
-        })();
-    </script>
-    <!--End of Tawk.to Script-->
 
 </body>
 

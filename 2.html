@@ -9,15 +9,15 @@
             text-align: center;
             border-bottom: 1px red solid;
             margin-bottom: 0px;
+            padding-bottom: 20px;
         }
 
-        ol {
+        #grid ol {
             margin: 0%;
             padding-left: 20px;
             padding-top: 7px;
             border-right: 2px red solid;
             width: 80px;
-
         }
 
         #grid {
@@ -33,15 +33,27 @@
         p {
             margin-top: 0px;
         }
-a{
-    text-decoration: none;
-    color: black;
-}
 
+        a {
+            text-decoration: none;
+            color: black;
+        }
 
-
-
-
+        @media(max-width:450px) {
+            #grid {
+                display: block;
+            }
+            h1{
+                font-size:30px;
+                border-bottom: none;
+            }
+            #grid ol {
+                border-right: 0px;
+            }
+            h2{
+                margin-top: 10px;
+            }
+    }
     </style>
 </head>
 
